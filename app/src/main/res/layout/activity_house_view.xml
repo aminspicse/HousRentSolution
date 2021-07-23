@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HouseView">
+
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Search"
+        android:inputType="textAutoComplete"
+        android:textSize="20sp" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/text_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Md. Al Amin's House "
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="269dp"
+                    android:src="@drawable/house1">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/text_titlewsd"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Md. Al Amin's House sdfsfdfsf"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/text_tdfitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Md. Al Amin's House "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="269dp"
+                android:src="@drawable/house1">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/text_titlew"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginTop="25dp"
+                android:text="Md. Al Amin's House sdfsfdfsf"
+                android:textSize="14sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/text_tfitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Md. Al Amin's House "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="269dp"
+                android:src="@drawable/house1">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/text_titflewsd"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginTop="25dp"
+                android:text="Md. Al Amin's House sdfsfdfsf"
+                android:textSize="14sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <TextView
+            android:id="@+id/text_tdffitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Md. Al Amin's House "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="269dp"
+            android:src="@drawable/house1">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text_titdlew"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="25dp"
+            android:text="Md. Al Amin's House sdfsfdfsf"
+            android:textSize="14sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+</ScrollView>
+
+</RelativeLayout>

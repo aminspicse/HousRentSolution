@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">House Rent Solution</string>
+    <string name="app_title">A Media</string>
+    <string name="content_description_media"> This is a House </string>
+    <string name="title">House will be rent</string>
+    <string name="secondary_text">This is Secondary Text</string>
+    <string name="supporting_text">This is supporting text</string>
+    <string name="action_1">This is action 1</string>
+    <string name="action_2">sdfsdfsdf</string>
+
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="share">Share</string>
+    <string name="create_post">Create Post</string>
+    <string name="visit_post">Visit All Post</string>
+    <string name="emailerror">Please Enter a Correct Email</string>
+
+</resources>
